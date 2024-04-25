@@ -12,6 +12,9 @@ As mentioned before, this tool is part of a larger system that helps users to ma
 Continuing with the theme of "parts of a whole system", error notification is sent using the function `send_email()` within 
 `email_scrape_failed.py`. This file and function is found within the extra folder. 
 
+Lastly, scripts like `create_discover_it_json.py` is designed to create and pass along strings using a JSON representation of HTML, URLs, 
+file and folder names, keywords, etc. 
+
 ## Features
 - Automated scraping of various credit cards with cashback offers.
 - Extraction of deal details such as cashback percentage, merchant name, and offer validity.
@@ -19,6 +22,7 @@ Continuing with the theme of "parts of a whole system", error notification is se
 - Ensures data integrity and avoids duplicates.
 - Can be integrated with other systems to enhance functionality.
 - Error logging for failed email scraping attempts.
+- JSON representation of strings to pass along as parameters or variables. 
 - Notification system to alert of scrape failures.
 - Easy-to-use interface for quick access to cashback information.
 
